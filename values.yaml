@@ -1,0 +1,7 @@
+deployment:
+  replicas: "1"
+  change-cause: "installing Latest"
+  imagename: "nginx"
+  imageversion: "Latest"
+service:
+  type: LoadBalancer
