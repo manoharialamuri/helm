@@ -9,7 +9,7 @@ metadata:
     tier: frontend
     component: frontend
   annotations:
-    kubernetes.io/change-cause: {{ .Values.deployment.change-cause }}
+    kubernetes.io/change-cause: {{ .Values.deployment.changecause }}
 spec:
   replicas: {{ .Values.deployment.replicas }}
   selector:
