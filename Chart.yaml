@@ -1,5 +1,5 @@
 apiVersion: v2 #The chart API version
 name: ngix #The name of the char
 version: 0.0.3 #The version of the chart
-description: 
+description: upgrading to 1.29-trixie
 appVersion: 1.29-trixie #The version of the app that this contains (optional)
